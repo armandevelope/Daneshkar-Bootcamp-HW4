@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --clr--primary: #365898;
+  --clr--white: #fff;
+}
+html {
+  font-size: 100%;
+}
+
+input {
+  outline: nonr;
+  border: none;
+  padding: 0.2rem;
+}
+
+.wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.logo {
+  color: var(--clr--white);
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--clr--primary);
+  padding: 1.2rem 1.2rem;
+}
+.account {
+  display: flex;
+  gap: 1rem;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.input__lable {
+  color: var(--clr--white);
+}
+
+.btn__login {
+  align-self: center;
+  padding: 0.1rem 0.2rem;
+  background-color: #307db1;
+  border: none;
+  color: var(--clr--white);
+}
+
+.main {
+  background-color: #f4f5fa;
+  height: 90vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.desc__text p {
+  max-width: 380px;
+  padding: 3.2rem 0;
+  font-weight: 600;
+  color: #1f445e;
+  font-size: 20px;
+}
+
+.form {
+  /* flex: 1; */
+  width: 650px;
+  padding: 3.2rem 1.4rem;
+  background-color: #efefef;
+}
+
+.create__acc {
+  font-size: 2.1rem;
+  font-weight: 600;
+}
+.row {
+  width: 100%;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.form_input {
+  width: 50%;
+  margin: 0.3rem 0;
+}
+
+.email__input_form {
+  width: 100%;
+  margin: 0.3rem 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.birthday__lable {
+  font-size: 18px;
+  margin: 1rem 0 0 0;
+}
+
+.provide__text {
+  color: blue;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.gender {
+  margin: 0.5rem 0 0 0;
+}
+
+.privacy__agree {
+  font-size: 14px;
+  font-weight: 400;
+  max-width: 350px;
+  color: #40413f;
+  margin: 1rem 0;
+}
+
+.login__btn {
+  align-self: flex-start;
+  padding: 0.6rem 1.2rem;
+  background-color: #61954a;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+.forget__acc {
+  color: hsl(219, 100%, 89%);
+  font-size: 12px;
+  text-decoration: none;
+}
